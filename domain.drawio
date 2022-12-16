@@ -1,0 +1,180 @@
+<mxfile host="65bd71144e">
+    <diagram id="2IHIcqGSacYsOJrwjP-c" name="core-spring-practice1">
+        <mxGraphModel dx="1161" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;h2&gt;비즈니스 요구사항과 설계&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6AF084;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="15" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="44.5" as="sourcePoint"/>
+                        <mxPoint x="270" y="44.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="회원" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="27.5" width="70" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="43.25" as="sourcePoint"/>
+                        <mxPoint x="430" y="43.25" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;ol&gt;&lt;li&gt;- 회원을 가입하고 조회할 수 있다.&lt;/li&gt;&lt;li&gt;&lt;span&gt;- 회원은 일반과 VIP 두 가지 등급이 있다.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;- 회원 데이터는 자체 DB를 구축할&amp;nbsp; 수 있고, 외부&amp;nbsp; 시스템과 연동할 수 있다(미정)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="shape=card;whiteSpace=wrap;html=1;size=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="60" as="sourcePoint"/>
+                        <mxPoint x="270" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="166" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="주문과 할인정책" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="140" width="110" height="52.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;ul&gt;&lt;li&gt;회원은 상품을 주문할 수 있다.&lt;/li&gt;&lt;li&gt;회원 등급에 따라 할인 정책을 적용할 수 있다.&lt;/li&gt;&lt;li&gt;할인 정책은 모든 VIP는 1000원을 할인해주는 고정 금액 할인을 적용해달라 ( 나중에 변경될 수 있음)&lt;/li&gt;&lt;li&gt;할인 정책은 변경 가능성이 높다. 회사의 기본 할인 정책을 아직 정하지 못했고, 오픈 직전까지 고민을 미루고 싶다. 최악의 경우 할인을 적용하지 못할 수도 있다.(미확정)&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="120" width="390" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;strokeColor=#F04DD5;" edge="1" parent="1" source="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&lt;h2&gt;클라이언트&lt;/h2&gt;" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="390" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;strokeColor=#F04DD5;" edge="1" parent="1" source="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="회원 서비스&lt;br&gt;- 회원 가입&lt;br&gt;- 회원 조회" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;strokeColor=#F04DD5;" edge="1" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;strokeColor=#F04DD5;" edge="1" parent="1" source="26" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="455" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;strokeColor=#F04DD5;" edge="1" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="회원 저장소" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="390" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="메모리 저장소" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="DB 회원 저장수" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="외부 시스템 연동 &lt;br&gt;회원 저장소" style="whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="회원 도메인 협력관계 ( 기획자도 볼 수 있도록, 이걸 가지고 클래스 다이어그램을 그린다. )" style="shape=tape;whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="310" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="회원 클래스 다이어그램 (실제 구현레벨, 클래스의 참조관계)" style="shape=tape;whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="680" width="350" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&amp;lt;interface&amp;gt;&lt;br&gt;MemberService" style="whiteSpace=wrap;html=1;strokeColor=#5286F0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=1;dashed=1;strokeColor=#3E68F0;" edge="1" parent="1" source="36" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;strokeColor=#3E68F0;" edge="1" parent="1" source="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="800" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="920"/>
+                            <mxPoint x="290" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="MemberServiceImpl" style="whiteSpace=wrap;html=1;strokeColor=#5286F0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="890" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="rounded=1;html=1;dashed=1;elbow=vertical;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#3E68F0;" edge="1" parent="1" source="39" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="870" as="targetPoint"/>
+                        <mxPoint x="500" y="850" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&amp;lt;interface&amp;gt;&lt;br&gt;MemberRepository" style="whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=isometricEdgeStyle;rounded=1;html=1;dashed=1;elbow=vertical;entryX=0.688;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3E68F0;" edge="1" parent="1" source="40" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="950" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="MemoryMemberRepository" style="whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="960" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="DbMemberRepository" style="whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="960" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;elbow=vertical;strokeColor=#3E68F0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="870" as="sourcePoint"/>
+                        <mxPoint x="500" y="830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="회원 객체 다이어그램 ( 객체들의 메모리 참조관계 )" style="shape=tape;whiteSpace=wrap;html=1;strokeColor=#A9F04D;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1120" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#A9F04D;elbow=vertical;" edge="1" parent="1" source="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="1220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="클라이언트" style="whiteSpace=wrap;html=1;strokeColor=#A9F04D;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="1190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="회원 저장소의 기능을 3개로 나누는 것이다.&lt;br&gt;이때, 아직 db나 뭐 정해진게 없으니, 처음에는 순수 자바코드로 메모리 저장소(서버를 껐다 키면 꺼지는, 개발용)에 회원을 넣고 뺴는 기능만 우선 만들어 놓을 것이다." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04DD5;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="350" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#A9F04D;elbow=vertical;" edge="1" parent="1" source="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="1220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="회원 서비스&lt;br&gt;(implements)" style="whiteSpace=wrap;html=1;strokeColor=#A9F04D;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="메모리&lt;br&gt;회원저장소" style="whiteSpace=wrap;html=1;strokeColor=#A9F04D;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="클래스 다이어그램은 실제 서버를 실행하지 않고 클래스를 분석해서 볼 수 있다." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="690" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="하지만 여기서!, Memory로 갈지 Db로 갈지는 동적으로 결정, 즉 서버를 실행 시키고, new로 무엇을 넣을지는 서버를 돌릴때 결정된다. 그래서 객체 다이어그램을 만들어줘야 한다." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3E68F0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="850" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="인스턴스끼리의 참조!" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A9F04D;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="1120" width="190" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
