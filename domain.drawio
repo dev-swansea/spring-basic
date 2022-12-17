@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2IHIcqGSacYsOJrwjP-c" name="core-spring-practice1">
-        <mxGraphModel dx="1366" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1161" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -174,33 +174,33 @@
                 <mxCell id="57" value="인스턴스끼리의 참조!" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A9F04D;" parent="1" vertex="1">
                     <mxGeometry x="600" y="1220" width="190" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;html=1;" edge="1" parent="1" source="59">
+                <mxCell id="61" style="edgeStyle=none;html=1;" parent="1" source="59" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1210" y="150" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="클라이언트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="59" value="클라이언트" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="930" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="&lt;h2&gt;&lt;b&gt;주문 도메인 협력, 역할 , 책임&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="60" value="&lt;h2&gt;&lt;b&gt;주문 도메인 협력, 역할 , 책임&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="860" y="10" width="250" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="주문 서비스 역할&lt;br&gt;-&amp;gt; 할인까지 적용된 결과를 반환" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="62" value="주문 서비스 역할&lt;br&gt;-&amp;gt; 할인까지 적용된 결과를 반환" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="1. 주문 생성&lt;br&gt;- 회원id&lt;br&gt;- 상품명&lt;br&gt;- 상품가격&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="63" value="1. 주문 생성&lt;br&gt;- 회원id&lt;br&gt;- 상품명&lt;br&gt;- 상품가격&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1090" y="60" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="return&lt;br&gt;4. 주문 결과 반환" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="64" value="return&lt;br&gt;4. 주문 결과 반환" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1075" y="175" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="62" target="59">
+                <mxCell id="67" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="62" target="59" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1130" y="150" as="sourcePoint"/>
                         <mxPoint x="1180" y="100" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="68" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="68" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1320" y="140" as="sourcePoint"/>
                         <mxPoint x="1440" y="70" as="targetPoint"/>
@@ -211,13 +211,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="69" value="회원 저장소 역할" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="69" value="회원 저장소 역할" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="2. 회원&amp;nbsp; 조희&lt;br&gt;-&amp;gt; 등급이 있기 때문에 저장소에서 &lt;br&gt;등급을 확인해야&amp;nbsp; 한다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="70" value="2. 회원&amp;nbsp; 조희&lt;br&gt;-&amp;gt; 등급이 있기 때문에 저장소에서 &lt;br&gt;등급을 확인해야&amp;nbsp; 한다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1240" y="10" width="200" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="71" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1330" y="160" as="sourcePoint"/>
                         <mxPoint x="1440" y="240" as="targetPoint"/>
@@ -227,42 +227,42 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" value="할인 정책 역할" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="72" value="할인 정책 역할" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="3. 할인 적용&lt;br&gt;-&amp;gt; 저장소에서 등급을 확인 후,&amp;nbsp;&lt;br&gt;할인 대상이면 할인을 한다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="73" value="3. 할인 적용&lt;br&gt;-&amp;gt; 저장소에서 등급을 확인 후,&amp;nbsp;&lt;br&gt;할인 대상이면 할인을 한다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1380" y="140" width="180" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="1. 주문 생성: 클라이언트 주문 서비스에 주문 생성을 요청한다. (main, spring에선 컨트롤러 역할)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;- 원래는 아이템이라는 객체를 넘겨야 하지만, 여기선 간단하게 하기 위해 상품명과 가격만 넘긴다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;2. 회원 조희 : 할인을 위해 회원 등급이 필요하다. 주문 서비스는 회원 저장소에서 회원을 조회한다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; - findById로 회원을 찾는다.&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;3. 할인 적용: 주문 서비스는 회원 등급에 따른 할인 여부를 할인 정책에 위임한다.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; -&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;4. 주문 결과 반환: 주문 서비스는 할인 결과를 포함한 주문 결과를 반환한다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- 실제는 db에 저장하는데, 여기선 그냥 클라에 보내는것 까지만&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="75" value="1. 주문 생성: 클라이언트 주문 서비스에 주문 생성을 요청한다. (main, spring에선 컨트롤러 역할)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;- 원래는 아이템이라는 객체를 넘겨야 하지만, 여기선 간단하게 하기 위해 상품명과 가격만 넘긴다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;2. 회원 조희 : 할인을 위해 회원 등급이 필요하다. 주문 서비스는 회원 저장소에서 회원을 조회한다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; - findById로 회원을 찾는다.&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;3. 할인 적용: 주문 서비스는 회원 등급에 따른 할인 여부를 할인 정책에 위임한다.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; -&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;4. 주문 결과 반환: 주문 서비스는 할인 결과를 포함한 주문 결과를 반환한다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- 실제는 db에 저장하는데, 여기선 그냥 클라에 보내는것 까지만&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="910" y="275" width="540" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="&lt;h2&gt;&lt;b&gt;주문 도메인 전체 ( 역할과 구현 )&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="77" value="&lt;h2&gt;&lt;b&gt;주문 도메인 전체 ( 역할과 구현 )&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="890" y="490" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" style="edgeStyle=none;html=1;" edge="1" parent="1" source="79">
+                <mxCell id="78" style="edgeStyle=none;html=1;" parent="1" source="79" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1170" y="650" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="79" value="클라이언트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="79" value="클라이언트" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="620" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="주문 서비스 &lt;b&gt;&lt;font color=&quot;#2e75f0&quot;&gt;역할&lt;/font&gt;&lt;/b&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="80" value="주문 서비스 &lt;b&gt;&lt;font color=&quot;#2e75f0&quot;&gt;역할&lt;/font&gt;&lt;/b&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1170" y="620" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="1. 주문 생성&lt;br&gt;- 회원id&lt;br&gt;- 상품명&lt;br&gt;- 상품가격&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="81" value="1. 주문 생성&lt;br&gt;- 회원id&lt;br&gt;- 상품명&lt;br&gt;- 상품가격&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="560" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="return&lt;br&gt;4. 주문 결과 반환" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="82" value="return&lt;br&gt;4. 주문 결과 반환" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1035" y="675" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="80" target="79">
+                <mxCell id="83" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="80" target="79" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1090" y="650" as="sourcePoint"/>
                         <mxPoint x="1140" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="84" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="84" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1280" y="640" as="sourcePoint"/>
                         <mxPoint x="1400" y="570" as="targetPoint"/>
@@ -273,10 +273,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="회원 저장소 &lt;font color=&quot;#2e75f0&quot;&gt;&lt;b&gt;역할&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="85" value="회원 저장소 &lt;font color=&quot;#2e75f0&quot;&gt;&lt;b&gt;역할&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1400" y="540" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="86" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1290" y="660" as="sourcePoint"/>
                         <mxPoint x="1400" y="740" as="targetPoint"/>
@@ -286,195 +286,345 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="할인 정책 &lt;b&gt;&lt;font color=&quot;#2e75f0&quot;&gt;역할&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="87" value="할인 정책 &lt;b&gt;&lt;font color=&quot;#2e75f0&quot;&gt;역할&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1400" y="710" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="3. 할인 적용&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="88" value="3. 할인 적용&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1275" y="690" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="2. 회원 조희" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="89" value="2. 회원 조희" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1250" y="560" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="80">
+                <mxCell id="92" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="91" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1230" y="690" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="91" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="91" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1170" y="740" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" style="edgeStyle=none;html=1;verticalAlign=middle;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="93">
+                <mxCell id="96" style="edgeStyle=none;html=1;verticalAlign=middle;dashed=1;endArrow=none;endFill=0;" parent="1" source="93" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1560" y="580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="93" value="메모리 회원 저장소" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="93" value="메모리 회원 저장소" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1580" y="480" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="94">
+                <mxCell id="97" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;" parent="1" source="94" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1560" y="580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="94" value="db 회원 저장소" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="94" value="db 회원 저장소" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1580" y="660" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="98" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1560" y="580" as="sourcePoint"/>
                         <mxPoint x="1520" y="580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="99">
+                <mxCell id="102" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="99" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1460" y="810" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="99" value="정액 할인 정책" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="99" value="정액 할인 정책" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1290" y="840" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="100">
+                <mxCell id="101" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="100" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1460" y="810" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="100" value="정률 할인 정책" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="100" value="정률 할인 정책" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1500" y="840" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="87">
+                <mxCell id="103" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="87" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1460" y="810" as="sourcePoint"/>
                         <mxPoint x="1500" y="760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="104" value="&lt;b&gt;역할과 구현&lt;/b&gt;(실선 부분)을 분리 해서 자유롭게 구현 객체를 조립할 수 있게 설계함&lt;br&gt;덕분에 회원 저장소는 물론이고, 할인 정책도 유연하게 변경 가능" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="104" value="&lt;b&gt;역할과 구현&lt;/b&gt;(실선 부분)을 분리 해서 자유롭게 구현 객체를 조립할 수 있게 설계함&lt;br&gt;덕분에 회원 저장소는 물론이고, 할인 정책도 유연하게 변경 가능" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1035" y="905" width="440" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" edge="1" parent="1">
+                <mxCell id="106" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1730" y="650" as="sourcePoint"/>
                         <mxPoint x="1930" y="650" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="107" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;주문 도메인 클래스 다이어그램&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#2E75F0;" vertex="1" parent="1">
+                <mxCell id="107" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;주문 도메인 클래스 다이어그램&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#2E75F0;" parent="1" vertex="1">
                     <mxGeometry x="1740" y="600" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="&amp;lt;interface&amp;gt;&lt;br&gt;OrderService" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="108" value="&amp;lt;interface&amp;gt;&lt;br&gt;OrderService" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1960" y="620" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="109" target="108">
+                <mxCell id="110" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="109" target="108" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2020.0000000000005" y="690" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="112" style="edgeStyle=elbowEdgeStyle;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="109">
+                <mxCell id="112" style="edgeStyle=elbowEdgeStyle;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="109" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2270" y="640" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="115" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="109" target="114">
+                <mxCell id="115" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="109" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="OrderServiceImpl" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="109" value="OrderServiceImpl" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1960" y="750" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="&amp;lt;interface&amp;gt;&lt;br&gt;MemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="113" value="&amp;lt;interface&amp;gt;&lt;br&gt;MemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2270" y="610" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="&amp;lt;interface&amp;gt;&lt;br&gt;DiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="114" value="&amp;lt;interface&amp;gt;&lt;br&gt;DiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2270" y="860" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" style="edgeStyle=elbowEdgeStyle;html=1;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="116">
+                <mxCell id="121" style="edgeStyle=elbowEdgeStyle;html=1;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="116" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2390" y="640" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="116" value="MemoryMemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="116" value="MemoryMemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2500" y="705" width="160" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="118" target="113">
+                <mxCell id="122" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="118" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="DbMemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="118" value="DbMemberRepository" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2490" y="550" width="160" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="123" target="114">
+                <mxCell id="125" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="123" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="FixDiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="123" value="FixDiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2500" y="810" width="129" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="124" target="114">
+                <mxCell id="126" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="124" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="RateDiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="124" value="RateDiscountPolicy" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2500" y="970" width="129" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" edge="1" parent="1">
+                <mxCell id="127" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="875.0000000000005" y="1290" as="sourcePoint"/>
                         <mxPoint x="1075.0000000000005" y="1290" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="&lt;b&gt;주문 도메인 객체 다이어그램1&lt;/b&gt;&lt;br&gt;(new 해서.. 동적으로 연관관계가 맺어지는)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="128" value="&lt;b&gt;주문 도메인 객체 다이어그램1&lt;/b&gt;&lt;br&gt;(new 해서.. 동적으로 연관관계가 맺어지는)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="845" y="1234" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="129" target="130">
+                <mxCell id="131" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="129" target="130" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="클라이언트" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="129" value="클라이언트" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1145" y="1260" width="120" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="130" target="132">
+                <mxCell id="134" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="130" target="132" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="130" target="133">
+                <mxCell id="135" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="130" target="133" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="130" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1370" y="1257.5" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="메모리 회원 저장소&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BfontColor%3D%232E75F0%3Bshape%3DflexArrow%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221730.0000000000005%22%20y%3D%22650%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221930.0000000000005%22%20y%3D%22650%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="132" value="메모리 회원 저장소&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BfontColor%3D%232E75F0%3Bshape%3DflexArrow%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221730.0000000000005%22%20y%3D%22650%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221930.0000000000005%22%20y%3D%22650%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="1180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="정액 할인 정책" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="133" value="정액 할인 정책" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="1370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" value="회원을 메모리에서 조회하고, 정액 할인 정책(고정 금액)을 지원해도 주문 서비스를 변경하지 않아도 된다.&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;역할들의 협력 관계를 그대로 재사용 할 수 있다.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="136" value="회원을 메모리에서 조회하고, 정액 할인 정책(고정 금액)을 지원해도 주문 서비스를 변경하지 않아도 된다.&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;역할들의 협력 관계를 그대로 재사용 할 수 있다.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="925" y="1345" width="570" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" edge="1" parent="1">
+                <mxCell id="147" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="875.0000000000005" y="1550" as="sourcePoint"/>
                         <mxPoint x="1075.0000000000005" y="1550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="148" value="&lt;b&gt;주문 도메인 객체 다이어그램2&lt;/b&gt;&lt;br&gt;(new 해서.. 동적으로 연관관계가 맺어지는)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="148" value="&lt;b&gt;주문 도메인 객체 다이어그램2&lt;/b&gt;&lt;br&gt;(new 해서.. 동적으로 연관관계가 맺어지는)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="845" y="1494" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="150" target="153">
+                <mxCell id="149" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="150" target="153" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="클라이언트" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="150" value="클라이언트" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1145" y="1520" width="120" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="153" target="154">
+                <mxCell id="151" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="153" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="153" target="155">
+                <mxCell id="152" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" parent="1" source="153" target="155" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="153" value="주문 서비스 구현체" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1370" y="1517.5" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="db 회원 저장소&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BfontColor%3D%232E75F0%3Bshape%3DflexArrow%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221730.0000000000005%22%20y%3D%22650%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221930.0000000000005%22%20y%3D%22650%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="154" value="db 회원 저장소&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BfontColor%3D%232E75F0%3Bshape%3DflexArrow%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221730.0000000000005%22%20y%3D%22650%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221930.0000000000005%22%20y%3D%22650%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="1440" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" value="정률 할인 정책" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="155" value="정률 할인 정책" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="1630" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;회원을 메모리가 아닌 실제 db에서 조회하고, 정률 할인 정책(주문 금액에 따라 %할인)을 지원해도 주문 서비스를&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;변경하지 않아도 된다. 즉, 협력 관계를 그대로 재사용할 수 있다.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="156" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;회원을 메모리가 아닌 실제 db에서 조회하고, 정률 할인 정책(주문 금액에 따라 %할인)을 지원해도 주문 서비스를&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;변경하지 않아도 된다. 즉, 협력 관계를 그대로 재사용할 수 있다.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="905" y="1605" width="610" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="Fix -&amp;gt; Rate로 변경시 문제점" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1680" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;html=1;" parent="1" source="158" target="160" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#OrderServiceImpl" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="158">
+                    <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="88" y="1733" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="160" value="&amp;lt;interface&amp;gt;&lt;br&gt;#DiscountPolicy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="338" y="1733" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;dashed=1;" parent="1" source="162" target="160" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="#FixDiscountPolicy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="198" y="1853" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="163" target="160" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="#RateDiscountPolicy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="488" y="1850" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="기대했던 효과?&lt;br&gt;-&amp;gt; DiscountPolicy만 의존한다 생각함, 추상만 의존" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="1730" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" style="edgeStyle=none;html=1;" parent="1" source="173" target="174" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.352;exitY=1.098;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="173" target="176" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#OrderServiceImpl" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="173">
+                    <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="88" y="1943" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="&amp;lt;interface&amp;gt;&lt;br&gt;.DiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/DiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="1" hedietLinkedDataV1_start_line_x-num="9" hedietLinkedDataV1_end_col_x-num="1" hedietLinkedDataV1_end_line_x-num="9" id="174">
+                    <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="338" y="1943" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="175" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;dashed=1;" parent="1" source="176" target="174" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#FixDiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="176">
+                    <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="198" y="2063" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="177" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="178" target="174" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#RateDiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="178">
+                    <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="488" y="2060" width="120" height="32" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="179" value="실제 의존관계이다.&lt;br&gt;클라인 OrderServiceImpl가 DisCountPolicy 인터페이스 뿐 아니라,&lt;br&gt;FixDiscountPolicy인 구체 클래스도 함께 의존하고 있다.&lt;br&gt;&lt;b&gt;DIP 위반&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="1910" width="370" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="endArrow=classic;html=1;fontColor=#2E75F0;shape=flexArrow;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="875.0000000000005" y="1939.5" as="sourcePoint"/>
+                        <mxPoint x="1075.0000000000005" y="1939.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=none;html=1;" edge="1" parent="1" source="184" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.352;exitY=1.098;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="184" target="187">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0.167;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="184" target="189">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1130" y="2070"/>
+                            <mxPoint x="1570" y="2070"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <object label="#OrderServiceImpl" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/FixDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="11" hedietLinkedDataV1_start_line_x-num="9" hedietLinkedDataV1_end_col_x-num="11" hedietLinkedDataV1_end_line_x-num="9" id="184">
+                    <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="1110" y="1880" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="&amp;lt;interface&amp;gt;&lt;br&gt;.DiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/DiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="1" hedietLinkedDataV1_start_line_x-num="9" hedietLinkedDataV1_end_col_x-num="1" hedietLinkedDataV1_end_line_x-num="9" id="185">
+                    <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="1360" y="1880" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="186" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;dashed=1;" edge="1" parent="1" source="187" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#FixDiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/FixDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="11" hedietLinkedDataV1_start_line_x-num="9" hedietLinkedDataV1_end_col_x-num="11" hedietLinkedDataV1_end_line_x-num="9" id="187">
+                    <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="1220" y="2000" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="188" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="189" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#RateDiscountPolicy" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="189">
+                    <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="1510" y="1997" width="120" height="32" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="190" value="&lt;b&gt;정책 변경&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="1830" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;" edge="1" parent="1" source="192">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1960" y="1885" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="192" value="&lt;b&gt;중요&lt;/b&gt;&lt;br&gt;FixDiscountPolicy를 RateDiscountPolicy로 변경하는 순간,&amp;nbsp;&lt;br&gt;OrderServiceImpl의 소스코드도 함께 변경하여야 한다. -&amp;gt; OCP위반" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1510" y="1860" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="How to fix?&lt;br&gt;&lt;ul&gt;&lt;li&gt;클라리언트 코드인 'OrderServiceImpl'은 'DiscountPolish'의 인터페이스 뿐 아니라 구체 클래도스 함께 의존&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;그래서 구체 클래스를 변경할 때 클라 드도 함께 변경해야됨&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&quot;DIP&quot;위반 -&amp;gt; 추상에만 의존하도록 변경 ( 인터페이스에만 의존 )&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;DIP를 위반하지 않도록 인터페이스만 의존하도록 의존관계를 변경하면 된다.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1930" y="1830" width="620" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" style="edgeStyle=none;html=1;" edge="1" parent="1" source="196" target="197">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="#OrderServiceImpl" hedietLinkedDataV1_path="../src/main/java/hello/core/discount/RateDiscountPolicy.java" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="18" hedietLinkedDataV1_end_col_x-num="0" hedietLinkedDataV1_end_line_x-num="18" id="196">
+                    <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="1960" y="1970" width="120" height="29" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="197" value="&amp;lt;interface&amp;gt;&lt;br&gt;#DiscountPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2210" y="1970" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;dashed=1;" edge="1" parent="1" source="199" target="197">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="#FixDiscountPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2070" y="2090" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="201" target="197">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="#RateDiscountPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2360" y="2087" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
+                    <mxGeometry x="1670" y="1990" width="250" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
