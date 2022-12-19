@@ -1,21 +1,16 @@
 package hello.core.member;
 
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.Test;
+import hello.core.AppConfig;
+import org.junit.jupiter.api.BeforeEach;
 
-public class MemberServiceTest {
+class MemberServiceTest {
 
-  MemberService memberService = new MemberServiceImpl();
+  MemberService memberService;
 
-  @Test
-  void join() {
-    //given
-    Member member = new Member(1L, "suwan", Grade.VIP);
-    //when
-    memberService.joinMember(member);
-    Member findMember = memberService.findMember(1L);
-
-    //then
-    Assertions.assertThat(member).isEqualTo(findMember);
+  // test이전 무조건 실행해라
+  @BeforeEach
+  public void beforeEach() {
+    AppConfig appConfig = new AppConfig();
+    memberService = appConfig.memberService();
   }
 }
