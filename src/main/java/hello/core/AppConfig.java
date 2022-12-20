@@ -12,10 +12,10 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration //! 설정정보에 configuration을 적어준다.
 public class AppConfig {
 
-  @Bean
+  @Bean //! 이후 이렇게 Bean을 적어주면, 스프링 컨테이너에 등록된다.
   public MemberService memberService() {
     return new MemberServiceImpl(memberRepository());
   }
